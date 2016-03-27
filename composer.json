@@ -29,12 +29,18 @@
             "Florianv\\LaravelSwap\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/assaqqaf/swap"
+		}
+	],
     "require": {
         "php": ">=5.5.9",
         "illuminate/contracts": "~5.0",
         "illuminate/support": "~5.0",
         "illuminate/view": "~5.0",
-        "assaqqaf/swap": "dev-master"
+        "florianv/swap": "dev-master"
     },
     "require-dev": {
         "graham-campbell/testbench": "~2.1"
